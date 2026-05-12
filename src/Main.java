@@ -111,6 +111,16 @@ public class Main {
         var remainsWeight = boxerTwo % boxerOne;
         System.out.println("остаток от деления " + remainsWeight + " Кг!");
 
+        var totalNumber = 640;
+        var devotesTime = 8;
+        var employees = totalNumber / devotesTime;
+        System.out.println("Всего работников в компании " + employees + " человек ");
+
+        var moreWorkers = employees + 94;
+        System.out.println(moreWorkers + " человека работает в компании");
+        var reducingHours = totalNumber / moreWorkers;
+        System.out.println("Если в компании работает " + moreWorkers + " человек, то всего " + reducingHours + " часа работы может быть поделено между сотрудниками");
+
 
 
 
