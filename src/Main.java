@@ -27,13 +27,13 @@ public class Main {
         var liftingCapacity = 50;
         var stuffWeight = 20;
         var capacityLeft = liftingCapacity - stuffWeight;
-        System.out.printf(" еще можно положить " + capacityLeft + " кг вещей ");
+        System.out.println(" еще можно положить " + capacityLeft + " кг вещей ");
 
 
         var appleWeight = 2;
         var orangesWeight = 3;
         var fruitWeight = appleWeight + orangesWeight;
-        System.out.printf(" Общий вес фруктов " + fruitWeight);
+        System.out.println(" Общий вес фруктов " + fruitWeight);
 
         var meetWeight = 4;
         var waterWeight = 5;
@@ -43,22 +43,42 @@ public class Main {
         var baklajanWeight = 3;
         var vegetablesWeight = tomatoesWeight + ogurtsovWeight + pepersWeight + baklajanWeight;
         var productsWeight = fruitWeight + meetWeight + waterWeight + vegetablesWeight;
-        System.out.printf(" Общий вес продуктов " + productsWeight + " кг! ");
+        System.out.println(" Общий вес продуктов " + productsWeight + " кг! ");
 
         var leftWeight = liftingCapacity - stuffWeight - productsWeight;
-        System.out.printf("Место осталось " + leftWeight + " кг!");
+        System.out.println("Место осталось " + leftWeight + " кг!");
 
         productsWeight = productsWeight * 2;
-        System.out.printf("теперь вес продуктов "+ productsWeight);
+        System.out.println("теперь вес продуктов "+ productsWeight);
 
         leftWeight = liftingCapacity - stuffWeight - productsWeight;
-        System.out.printf("Теперь мета осталось " + leftWeight + " кг!");
+        System.out.println("Теперь мета осталось " + leftWeight + " кг!");
 
         var overLoad = (stuffWeight + productsWeight) % liftingCapacity;
-        System.out.printf("перегруз на " + overLoad + " кг!");
+        System.out.println("перегруз на " + overLoad + " кг!");
 
         var productsInOneCar = productsWeight / 2;
-        System.out.printf("Продуктов в одной машине теперь " + productsInOneCar);
+        System.out.println("Продуктов в одной машине теперь " + productsInOneCar);
+
+
+
+        var dog = 8.0;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+        var paper = 763789;
+        System.out.println(paper);
+
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+
+
+
+
 
 
 
