@@ -99,6 +99,18 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+        var boxerOne = 78.2;
+        System.out.println(boxerOne);
+        var boxerTwo = 82.7;
+        System.out.println(boxerTwo);
+        var totalWeight = boxerOne + boxerTwo;
+        System.out.println("Общая масса 2х бойцов " + totalWeight + " кг! ");
+        var differenceWeight = boxerTwo - boxerOne;
+        System.out.println("Разница в весе бойцов составляет " + differenceWeight + " кг!");
+
+
+
+
 
 
 
