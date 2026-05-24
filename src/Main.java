@@ -122,24 +122,21 @@ public class Main {
         System.out.println("Если в компании работает " + moreWorkers + " человек, то всего " + reducingHours + " часа работы может быть поделено между сотрудниками");
 
 
+        byte bananas = 100;
+        System.out.println("bananov " + bananas + " Kg!");
 
+        float sugar = 3;
+        float onePortion = sugar / 4;
+        System.out.println("Одна порция сахара весит " + onePortion + " kg!");
 
+        byte z = 1;
+        short ab = 1;
+        int ac = 1;
+        int d = z + ab + ac;
+        System.out.println(d);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        float g = z + 1f;
+        System.out.println(g);
 
 
 
