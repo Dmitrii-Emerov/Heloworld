@@ -140,6 +140,20 @@ public class Main {
 
 
 
+        byte xl = 67;
+        System.out.println("Значение переменой xl с типом byte равно " + xl);
+        int xa = 27897;
+        System.out.println("Значение с переменой xa с типом int равно " + xa);
+        short xb =569;
+        System.out.println("Значение с переменой xb с типом short равно " + xb);
+        long xc = 987678965;
+        System.out.println("Значение с переменой xc с типом long равно " + xc);
+        float xv = 27.12f;
+        System.out.println("Значение с переменой xv с типос float равно " + xv);
+        double xz =2.786;
+        System.out.println("Значение с переменой xz с типом double равно " + xz);
+
+
 
          }
     }
