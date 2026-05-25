@@ -18,8 +18,8 @@ public class Main {
         System.out.println("x + y =" + result);
         var a = 6;
         var b = 3;
-        var result1 = (a/2) * b;
-        System.out.println(((a/2) * b)+ result1);
+        var result1 = (a / 2) * b;
+        System.out.println(((a / 2) * b) + result1);
 
 
         var liftingCapacity = 50;
@@ -47,7 +47,7 @@ public class Main {
         System.out.println("Место осталось " + leftWeight + " кг!");
 
         productsWeight = productsWeight * 2;
-        System.out.println("теперь вес продуктов "+ productsWeight);
+        System.out.println("теперь вес продуктов " + productsWeight);
 
         leftWeight = liftingCapacity - stuffWeight - productsWeight;
         System.out.println("Теперь мета осталось " + leftWeight + " кг!");
@@ -57,7 +57,6 @@ public class Main {
 
         var productsInOneCar = productsWeight / 2;
         System.out.println("Продуктов в одной машине теперь " + productsInOneCar);
-
 
 
         var dog = 8.0;
@@ -136,65 +135,62 @@ public class Main {
         float g = z + 1f;
         System.out.println(g);
 
-
-        byte xl = 67;
-        int xa = 27897;
-        short xb = 569;
-        long xc = 987678965L;
-        float xv = 27.12f;
-        double xz = 2.786;
-        System.out.println("Значение с переменой xz с типом double равно " + xz);
-        System.out.println("Значение переменой xl с типом byte равно " + xl);
-        System.out.println("Значение с переменой xa с типом int равно " + xa);
-        System.out.println("Значение с переменой xb с типом short равно " + xb);
-        System.out.println("Значение с переменой xc с типом long равно " + xc);
-        System.out.println("Значение с переменой xv с типом float равно " + xv);
-
-
-        byte LP = 23;
-        System.out.println("У Людмилы Павловны учаться " + LP + " ученика!");
-        byte AS = 27;
-        System.out.println("У Анны Сергеевны учаться " + AS + " учеников!");
-        byte EA = 30;
-        System.out.println("У Екатерины Андреевны учаться " + EA + " учеников!");
-        int vseList = 480;
-        byte vseUcheniki = (byte) (LP + AS + EA);
-        System.out.println(vseUcheniki + " учеников учаться в трех классах");
-        int listKajdomu = (vseList / vseUcheniki);
-        System.out.println("На каждого ученика рассчитано " + listKajdomu + " листов бумаги");
-
-
-        byte twoMin = 16;
-        byte sa = 2;
-        byte sq = 1;
-        byte oneMin = (byte) (twoMin / sa);
-        System.out.println("За " + sq + " минуту производит " + oneMin + " штук бутылок!");
-        System.out.println("за " + sa + " минуты произвела " + twoMin + " штук бутылок!");
-        byte sv = 20;
-        int sd = sv / sa;
-        int se = twoMin * sd;
-        System.out.println("За " + sv + " минут произвела " + se + " штук бутылок!");
-        byte sx = 24;
-        int minSx = sx * 60;
-        int sr = minSx * oneMin;
-        System.out.println("в 1х сутках " + sx + " часа!");
-        System.out.println("В одних сутках " + minSx + " минут!");
-        System.out.println("За " + minSx + " минут произвела " + sr + " штук бутылок!");
-        byte su = 3 * 24;
-        int sf = su * 60;
-        int st = sf * oneMin;
-        System.out.println("В трех сутках " + su + " часа");
-        System.out.println("В трех сутках " + sf + " минут");
-        System.out.println("За " + sf + " минут произвела " + st + " штук бутылок!");
-        byte so = 30;
-        int sh = so * 24;
-        int sk = sh * 60;
-        int sl = sk * oneMin;
-        System.out.println("В одном месяце " + sh + " часов");
-        System.out.println("В одном месяце " + sk + " минут");
-        System.out.println("За " + sk + " минут произвела " + sl + " штук бутылок!");
-
-
+        System.out.println("Задание 1-2");
+        byte variableOne = 67;
+        int variableTwo = 27897;
+        short variableThree = 569;
+        long variableFour = 987678965L;
+        float variableFive = 27.12f;
+        double variableSix = 2.786;
+        System.out.println("Значение с переменой variableSix с типом double равно " + variableSix);
+        System.out.println("Значение переменой variableOne с типом byte равно " + variableOne);
+        System.out.println("Значение с переменой variableTwo с типом int равно " + variableTwo);
+        System.out.println("Значение с переменой VariableThree с типом short равно " + variableThree);
+        System.out.println("Значение с переменой variableFour с типом long равно " + variableFour);
+        System.out.println("Значение с переменой variableFive с типом float равно " + variableFive);
+        System.out.println("Задание 3");
+        byte ludmilaPavlovna = 23;
+        System.out.println("У Людмилы Павловны учаться " + ludmilaPavlovna + " ученика!");
+        byte annaSergeevna = 27;
+        System.out.println("У Анны Сергеевны учаться " + annaSergeevna + " учеников!");
+        byte ekaterinaAndreevna = 30;
+        System.out.println("У Екатерины Андреевны учаться " + ekaterinaAndreevna + " учеников!");
+        int allSheets = 480;
+        byte allStudents = (byte) (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
+        System.out.println(allStudents + " учеников учаться в трех классах");
+        int sheetsEveryone = (allSheets / allStudents);
+        System.out.println("На каждого ученика рассчитано " + sheetsEveryone + " листов бумаги");
+        System.out.println("задание 4");
+        byte bottlesOne = 16;
+        byte min = 2;
+        byte minOne = 1;
+        byte minTwo = (byte) (bottlesOne / min);
+        System.out.println("За " + minOne + " минуту производит " + minTwo + " штук бутылок!");
+        System.out.println("за " + min + " минуты произвела " + bottlesOne + " штук бутылок!");
+        byte bottlesTwo = 20;
+        int minThree = bottlesTwo / min;
+        int minFour = bottlesOne * minThree;
+        System.out.println("За " + bottlesTwo + " минут произвела " + minFour + " штук бутылок!");
+        byte bottlesThree = 24;
+        int minFive = bottlesThree * 60;
+        int minSix = minFive * minTwo;
+        System.out.println("в 1х сутках " + bottlesThree + " часа!");
+        System.out.println("В одних сутках " + minFive + " минут!");
+        System.out.println("За " + minFive + " минут произвела " + minSix + " штук бутылок!");
+        byte bottlesFour = 3 * 24;
+        int minSeven = bottlesFour * 60;
+        int minEight = minSeven * minTwo;
+        System.out.println("В трех сутках " + bottlesFour + " часа");
+        System.out.println("В трех сутках " + minSeven + " минут");
+        System.out.println("За " + minSeven + " минут произвела " + minEight + " штук бутылок!");
+        byte bottlesFive = 30;
+        int minNine = bottlesFive * 24;
+        int minTen = minNine * 60;
+        int minEleven = minTen * minTwo;
+        System.out.println("В одном месяце " + minNine + " часов");
+        System.out.println("В одном месяце " + minTen + " минут");
+        System.out.println("За " + minTen + " минут произвела " + minEleven + " штук бутылок!");
+        System.out.println("Задание 5");
         byte cans = 120;
         byte oneCans = 2;
         byte twoCans = 4;
@@ -205,91 +201,80 @@ public class Main {
         System.out.println("Нужно для одного класса " + allCans + " банок краски разного цвета");
         System.out.println("Всего " + allClasses + " классов в школе!");
         System.out.println("В школе, где " + allClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски! ");
-
-
-        byte banan = 5;
-        byte bana = 80;
+        System.out.println("Задание 6");
+        byte banana = 5;
+        byte bananaGramm = 80;
         int milk = 200;
-        byte milc = 105;
-        byte ml = (byte) (milk / 100);
-        System.out.println(ml + "  пачrb молока по 100мл в нашей корзине");
-        System.out.println("В 100 мл молока " + milc + " граммов");
+        byte milkGramm = 105;
+        byte milkAll = (byte) (milk / 100);
+        System.out.println(milkAll + "  пачrb молока по 100мл в нашей корзине");
+        System.out.println("В 100 мл молока " + milkGramm + " граммов");
         byte iceCrem = 2;
-        byte cremIce = 100;
+        byte iceCremgramm = 100;
         byte egg = 4;
-        byte eg = 70;
-        int Banan = banan * bana;
+        byte eggGramm = 70;
+        int Banan = banana * bananaGramm;
         System.out.println("Всего " + Banan + " граммов банана");
-        int Milk = ml * milc;
+        int Milk = milkAll * milkGramm;
         System.out.println("Всего " + Milk + " граммов молока");
-        int ice = iceCrem * cremIce;
+        int ice = iceCrem * iceCremgramm;
         System.out.println("Всего " + ice + " граммов мороженного");
-        int Egg = egg * eg;
+        int Egg = egg * eggGramm;
         System.out.println("Всего " + Egg + " граммов яиц");
         int vseProdukt = Banan + Milk + ice + Egg;
         int grm = 1000;
         byte kg = 1;
         System.out.println("В " + kg + " килограмме " + grm + " граммов");
-        float vseKillo = (float) vseProdukt / grm;
+        float allKillo = (float) vseProdukt / grm;
         System.out.println("Вес завтрака состовляет " + vseProdukt + " граммов!");
-        System.out.println("Вес завтрака состовляет " + vseKillo + " килограммов!");
-
-
+        System.out.println("Вес завтрака состовляет " + allKillo + " килограммов!");
+        System.out.println("Задание 7");
         byte weight = 7;
         short removeWeight = (short) (weight * 1000);
         short weighLoss = 250;
         short loseWeight = 500;
         short skipDays = (short) (removeWeight / weighLoss);
-        short SkipDay = (short) (removeWeight / loseWeight);
+        short skipDay = (short) (removeWeight / loseWeight);
         System.out.println(removeWeight + " граммов. Столько надо сбросить спорцмену до соревнований!");
         System.out.println(skipDays + " дней понядобиться на сгон веса, если сгонять по 250 грамм ");
-        System.out.println(SkipDay + " дней понадобиться на сгон веса, если сгонять по 500 грамм ");
-
-
+        System.out.println(skipDay + " дней понадобиться на сгон веса, если сгонять по 500 грамм ");
+        System.out.println("Задание 8");
         int masha = 67760;
         int denis = 83690;
         int kristina = 76230;
-
         float procentZpMasha = (float) masha / 100;
         float zpMashaProcent = (float) procentZpMasha * 10;
         System.out.println("На " + zpMashaProcent + " рублей повыситься зарплата у Маши ");
-
         float procentZpDenis = (float) denis / 100;
         float zpDenisProcent = (float) procentZpDenis * 10;
         System.out.println("На " + zpDenisProcent + " рублей повыситься зарплата у Дениса ");
-
         float procentZpKristina = (float) kristina / 100;
         float zpKristinaProcent = (float) procentZpKristina * 10;
         System.out.println("На " + zpKristinaProcent + " рублей повыситься зарплата у Кристины ");
-
         int zpMasha = (int) (masha + zpMashaProcent);
         int zpDenis = (int) (denis + zpDenisProcent);
         int zpKristina = (int) (kristina + zpKristinaProcent);
         System.out.println("Зарплата Маши с прибавление составляет " + zpMasha);
         System.out.println("Зарплата Дениса с прибавление составляет " + zpDenis);
         System.out.println("Зарплата Кристины с прибавление составляет " + zpKristina);
-
         int ninZpMasha = masha * 12;
         int ninZpDenis = denis * 12;
         int ninZpKristina = kristina * 12;
         System.out.println("Нынешняя зарплата составляет Маши " + ninZpMasha + " рублей в год!");
         System.out.println("Нынешняя зарплата составляет Дениса " + ninZpDenis + " рублей в год!");
         System.out.println("Нынешняя зарплата составляет Кристины " + ninZpKristina + " рублей в год!");
-
         int seyZpMasha = zpMasha * 12;
         int seyZpDenis = zpDenis * 12;
         int seyZpKristina = zpKristina * 12;
         System.out.println("Зарплата Маши с прибавлением процентов составляет " + seyZpMasha + " рублей в год!");
         System.out.println("Зарплата Дениса с прибавлением процентов составляет " + seyZpDenis + " рублей в год");
         System.out.println("Зарплата Кристины с прибавлением процентов составляет " + seyZpKristina + " рублей в год");
-
         int razZpMasha = seyZpMasha - ninZpMasha;
         int razZpDenis = seyZpDenis - ninZpDenis;
         int razZpKristina = seyZpKristina - ninZpKristina;
         System.out.println("Машина разница между нынешней зп и с прибавкой составляет " + razZpMasha + " рублей за год!");
         System.out.println("Дениса разница между нынешней зп и с прибавкой составляет " + razZpDenis + " рублей за год!");
         System.out.println("Кристинина разница между нынешней зп и с прибавкой составляет " + razZpKristina + " рублей за год!");
-
         System.out.println("Маша теперь получает " + seyZpMasha + " рублей. Годовой доход вырос на " + razZpMasha + " рублей");
         System.out.println("Денис теперь получает " + seyZpDenis + " рублей. Годовой доход вырос на " + razZpDenis + " рублей");
         System.out.println("Кристина теперь получает " + seyZpKristina + " рублей. Годовой доход вырос на " + razZpKristina + " рублей");
