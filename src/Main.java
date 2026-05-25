@@ -154,6 +154,24 @@ public class Main {
         System.out.println("Значение с переменой xz с типом double равно " + xz);
 
 
+        var LP = 23;
+        System.out.println("У Людмилы Павловны учаться " + LP + " ученика!");
+        var AS = 27;
+        System.out.println("У Анны Сергеевны учаться " + AS + " учеников!");
+        var EA = 30;
+        System.out.println("У Екатерины Андреевны учаться " + EA + " учеников!");
+        var vseList = 480;
+        var vseUcheniki = LP + AS + EA;
+        System.out.println(vseUcheniki + " учеников учаться в трех классах");
+        var listKajdomu = vseList / vseUcheniki;
+        System.out.println("На каждого ученика рассчитано " + listKajdomu + " листов бумаги");
+
+
+
+
+
+
+
 
          }
     }
