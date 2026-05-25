@@ -247,9 +247,54 @@ public class Main {
         System.out.println(skolkoDay + " дней понадобиться на сгон веса, если сгонять по 500 грамм ");
 
 
-        var masha = 67760;
-        var denis = 83690;
-        var kristina = 76230;
+
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+
+        float procentZpMasha = (float) masha/ 100 ;
+        float zpMashaProcent = (float) procentZpMasha * 10;
+        System.out.println("На "+ zpMashaProcent + " рублей повыситься зарплата у Маши ");
+
+        float procentZpDenis = (float) denis/ 100 ;
+        float zpDenisProcent = (float) procentZpDenis * 10;
+        System.out.println("На "+ zpDenisProcent + " рублей повыситься зарплата у Дениса ");
+
+        float procentZpKristina = (float) kristina/ 100 ;
+        float zpKristinaProcent = (float) procentZpKristina * 10;
+        System.out.println("На "+ zpKristinaProcent + " рублей повыситься зарплата у Кристины ");
+
+        int zpMasha = (int) (masha + zpMashaProcent);
+        int zpDenis = (int) (denis + zpDenisProcent);
+        int zpKristina = (int) (kristina + zpKristinaProcent);
+        System.out.println("Зарплата Маши с прибавление составляет "+ zpMasha);
+        System.out.println("Зарплата Дениса с прибавление составляет "+ zpDenis);
+        System.out.println("Зарплата Кристины с прибавление составляет "+ zpKristina);
+
+        int ninZpMasha = masha * 12;
+        int ninZpDenis = denis * 12;
+        int ninZpKristina = kristina * 12;
+        System.out.println("Нынешняя зарплата составляет Маши "+ ninZpMasha + " рублей в год!");
+        System.out.println("Нынешняя зарплата составляет Дениса "+ ninZpDenis + " рублей в год!");
+        System.out.println("Нынешняя зарплата составляет Кристины "+ ninZpKristina + " рублей в год!");
+
+        int seyZpMasha = zpMasha * 12;
+        int seyZpDenis = zpDenis * 12;
+        int seyZpKristina = zpKristina * 12;
+        System.out.println("Зарплата Маши с прибавлением процентов составляет "+ seyZpMasha+ " рублей в год!");
+        System.out.println("Зарплата Дениса с прибавлением процентов составляет "+ seyZpDenis+ " рублей в год");
+        System.out.println("Зарплата Кристины с прибавлением процентов составляет "+ seyZpKristina+ " рублей в год");
+
+        int razZpMasha = seyZpMasha - ninZpMasha;
+        int razZpDenis = seyZpDenis - ninZpDenis;
+        int razZpKristina = seyZpKristina - ninZpKristina;
+        System.out.println("Машина разница между нынешней зп и с прибавкой составляет "+ razZpMasha+ " рублей за год!");
+        System.out.println("Дениса разница между нынешней зп и с прибавкой составляет "+ razZpDenis+ " рублей за год!");
+        System.out.println("Кристинина разница между нынешней зп и с прибавкой составляет "+ razZpKristina+ " рублей за год!");
+
+        System.out.println("Маша теперь получает "+ seyZpMasha + " рублей. Годовой доход вырос на " + razZpMasha + " рублей");
+        System.out.println("Денис теперь получает "+ seyZpDenis + " рублей. Годовой доход вырос на " + razZpDenis + " рублей");
+        System.out.println("Кристина теперь получает "+ seyZpKristina + " рублей. Годовой доход вырос на " + razZpKristina + " рублей");
 
 
 
