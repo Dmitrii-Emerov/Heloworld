@@ -236,6 +236,16 @@ public class Main {
         System.out.println("Вес завтрака состовляет " + vseKillo + " килограммов!");
 
 
+        var ves = 7;
+        var vesUbrat = ves * 1000;
+        var pohudenieOne = 250;
+        var pohudenieTwo = 500;
+        var skolDay = vesUbrat / pohudenieOne;
+        var skolkoDay = vesUbrat / pohudenieTwo;
+        System.out.println( vesUbrat + " граммов. Столько надо сбросить спорцмену до соревнований!");
+        System.out.println(skolDay + " дней понядобиться на сгон веса, если сгонять по 250 грамм ");
+        System.out.println(skolkoDay + " дней понадобиться на сгон веса, если сгонять по 500 грамм ");
+
 
          }
     }
