@@ -196,13 +196,17 @@ public class Main {
         System.out.println("За "+ sk + " минут произвела "+ sl + " штук бутылок!");
 
 
-        byte banok = 120;
-        byte oneBanka = 2;
-        byte twoBanka = 4;
-        byte vseBanka = (byte) (oneBanka + twoBanka);
-        byte vseClass = (byte) (banok / vseBanka);
+         byte banok = 120;
+         byte oneBanka = 2;
+         byte twoBanka = 4;
+         byte vseBanka = (byte) (oneBanka + twoBanka);
+         byte vseClass = (byte) (banok / vseBanka);
+         byte korKras = (byte) (twoBanka * vseClass);
+         byte belKras= (byte) (oneBanka * vseClass);
+        System.out.println("Нужно для одного класса " + vseBanka + " банок краски разного цвета");
+         System.out.println("Всего "+ vseClass + " классов в школе!");
+        System.out.println("В школе, где "+ vseClass + " классов, нужно "+ belKras + " банок белой краски и " + korKras + " банок коричневой краски! ");
 
-        System.out.println("Всего "+ vseClass + " классов в школе!");
 
 
 
