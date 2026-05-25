@@ -165,35 +165,46 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + listKajdomu + " листов бумаги");
 
 
-        var twoMin = 16;
-        var sa = 2;
-        var sq= 1;
-        var oneMin = twoMin / sa;
+        byte twoMin = 16;
+        byte sa = 2;
+        byte sq= 1;
+        byte oneMin = (byte) (twoMin / sa);
         System.out.println("За "+ sq + " минуту производит "+ oneMin + " штук бутылок!" );
         System.out.println("за "+ sa + " минуты произвела " + twoMin + " штук бутылок!");
-        var sv = 20;
-        var sd = sv / sa;
-        var se = twoMin * sd;
+        byte sv = 20;
+        int sd = sv / sa;
+        int se = twoMin * sd;
         System.out.println("За "+ sv + " минут произвела " + se + " штук бутылок!" );
-        var sx = 24;
-        var minSx = sx * 60;
-        var sr = minSx * oneMin;
+        byte sx = 24;
+        int minSx = sx * 60;
+        int sr = minSx * oneMin;
         System.out.println("в 1х сутках " + sx + " часа!");
         System.out.println("В одних сутках " + minSx + " минут!");
         System.out.println("За "+ minSx + " минут произвела " + sr + " штук бутылок!");
-        var su = 3 * 24;
-        var sf = su * 60;
-        var st = sf * oneMin;
+        byte su = 3 * 24;
+        int  sf = su * 60;
+        int st = sf * oneMin;
         System.out.println("В трех сутках " + su + " часа");
         System.out.println("В трех сутках "+ sf + " минут");
         System.out.println("За "+ sf + " минут произвела "+ st + " штук бутылок!" );
-        var so = 30;
-        var sh = so * 24;
-        var sk = sh * 60;
-        var sl = sk * oneMin;
+        byte so = 30;
+        int sh = so * 24;
+        int sk = sh * 60;
+        int sl = sk * oneMin;
         System.out.println("В одном месяце "+ sh + " часов");
         System.out.println("В одном месяце "+ sk + " минут");
         System.out.println("За "+ sk + " минут произвела "+ sl + " штук бутылок!");
+
+
+        byte banok = 120;
+        byte oneBanka = 2;
+        byte twoBanka = 4;
+        byte vseBanka = (byte) (oneBanka + twoBanka);
+        byte vseClass = (byte) (banok / vseBanka);
+
+        System.out.println("Всего "+ vseClass + " классов в школе!");
+
+
 
 
 
