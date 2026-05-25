@@ -1,5 +1,3 @@
-import java.io.PrintStream;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -165,6 +163,40 @@ public class Main {
         System.out.println(vseUcheniki + " учеников учаться в трех классах");
         var listKajdomu = vseList / vseUcheniki;
         System.out.println("На каждого ученика рассчитано " + listKajdomu + " листов бумаги");
+
+
+        var twoMin = 16;
+        var sa = 2;
+        var sq= 1;
+        var oneMin = twoMin / sa;
+        System.out.println("За "+ sq + " минуту производит "+ oneMin + " штук бутылок!" );
+        System.out.println("за "+ sa + " минуты произвела " + twoMin + " штук бутылок!");
+        var sv = 20;
+        var sd = sv / sa;
+        var se = twoMin * sd;
+        System.out.println("За "+ sv + " минут произвела " + se + " штук бутылок!" );
+        var sx = 24;
+        var minSx = sx * 60;
+        var sr = minSx * oneMin;
+        System.out.println("в 1х сутках " + sx + " часа!");
+        System.out.println("В одних сутках " + minSx + " минут!");
+        System.out.println("За "+ minSx + " минут произвела " + sr + " штук бутылок!");
+        var su = 3 * 24;
+        var sf = su * 60;
+        var st = sf * oneMin;
+        System.out.println("В трех сутках " + su + " часа");
+        System.out.println("В трех сутках "+ sf + " минут");
+        System.out.println("За "+ sf + " минут произвела "+ st + " штук бутылок!" );
+        var so = 30;
+        var sh = so * 24;
+        var sk = sh * 60;
+        var sl = sk * oneMin;
+        System.out.println("В одном месяце "+ sh + " часов");
+        System.out.println("В одном месяце "+ sk + " минут");
+        System.out.println("За "+ sk + " минут произвела "+ sl + " штук бутылок!");
+
+
+
 
 
 
