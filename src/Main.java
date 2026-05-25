@@ -208,15 +208,32 @@ public class Main {
         System.out.println("В школе, где "+ vseClass + " классов, нужно "+ belKras + " банок белой краски и " + korKras + " банок коричневой краски! ");
 
 
-
-
-
-
-
-
-
-
-
+        var banan = 5;
+        byte bana = 80;
+        var milk = 200;
+        byte milc = 105;
+        var ml = milk / 100;
+        System.out.println(ml + "  пачrb молока по 100мл в нашей корзине");
+        System.out.println("В 100 мл молока "+ milc + " граммов" );
+        var iceCrem = 2;
+        byte cremIce = 100;
+        var egg = 4;
+        byte eg = 70;
+        int Banan = banan * bana;
+        System.out.println("Всего " + Banan + " граммов банана");
+        int Milk = ml * milc;
+        System.out.println("Всего " + Milk + " граммов молока");
+        int ice = iceCrem * cremIce;
+        System.out.println("Всего " + ice + " граммов мороженного");
+        int Egg = egg * eg;
+        System.out.println("Всего "+ Egg + " граммов яиц");
+        int vseProdukt = Banan + Milk + ice + Egg;
+        var grm = 1000;
+        var kg = 1;
+        System.out.println("В "+ kg + " килограмме "+ grm + " граммов");
+        float vseKillo = (float) vseProdukt / grm;
+        System.out.println("Вес завтрака состовляет " + vseProdukt + " граммов!");
+        System.out.println("Вес завтрака состовляет " + vseKillo + " килограммов!");
 
 
 
